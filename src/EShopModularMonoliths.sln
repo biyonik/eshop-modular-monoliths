@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{D2E44978-CEF4-4DF9-94B9-F8707F80EBCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Bootstrapper\Api\Api.csproj", "{67A0453B-3C5C-49E6-B70B-83685F64751F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67A0453B-3C5C-49E6-B70B-83685F64751F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A0453B-3C5C-49E6-B70B-83685F64751F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A0453B-3C5C-49E6-B70B-83685F64751F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A0453B-3C5C-49E6-B70B-83685F64751F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67A0453B-3C5C-49E6-B70B-83685F64751F} = {D2E44978-CEF4-4DF9-94B9-F8707F80EBCE}
+	EndGlobalSection
+EndGlobal
