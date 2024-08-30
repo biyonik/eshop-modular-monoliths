@@ -1,7 +1,3 @@
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Builder;
-
 namespace Catalog;
 
 public static class CatalogModule
@@ -11,7 +7,8 @@ public static class CatalogModule
         return services;
     }
 
-    public static IApplicationBuilder UseCatalogModule(this IApplicationBuilder app) {
-        return app;        
+    public static IApplicationBuilder UseCatalogModule(this IApplicationBuilder app)
+    {
+        return app;
     }
 }
